@@ -12,6 +12,7 @@
   --bgrnd-her: #2f303a;
   --bgrnd-prod: #e5e5e5;
   --some-color: #eeeeee;
+  --hero-bgrnd-color: #c4c4c4;
 }
 
 a {
@@ -168,6 +169,14 @@ img {
   margin-right: 50px;
 }
 
+.mail-icon {
+  fill: ;
+}
+
+.tel-ikon {
+  display: flex;
+}
+
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
@@ -217,6 +226,22 @@ img {
   display: inline-block;
 }
 
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/hero-bgrnd-img/bgrnd-img.jpg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--hero-bgrnd-color);
+}
 /* / hero */
 
 /* advantages */
@@ -297,9 +322,9 @@ img {
 }
 
 .title-box {
-  padding-top: 30px;
+  padding-top: 15px;
   background-color: var(--white-color);
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .our-team-item:not(:last-child) {
