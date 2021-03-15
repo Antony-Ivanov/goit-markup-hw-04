@@ -151,28 +151,42 @@ img {
   padding-bottom: 32px;
 }
 
-.info-link:hover {
+
+ .tel-link:hover .tel-ikon{
   fill: var(--accent-color);
   color: var(--accent-color);
 }
-.info-link:focus {
-  fill: var(--accent-color);
-  color: var(--accent-color);
-}
+
 .tel-link:hover {
+  color: var(--accent-color);
+}
+
+.info-link:hover .mail-ikon{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.info-link:hover{
+  color: var(--accent-color);
+}
+
+ .tel-link:focus .tel-ikon{
   fill: var(--accent-color);
   color: var(--accent-color);
 }
+
 .tel-link:focus {
-  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
-.mail-ikon:hover,
-.mail-ikon:focus {
+.info-link:focus .mail-ikon{
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 
+.info-link:focus{
+  color: var(--accent-color);
+}
 
 .tel-link {
   font-weight: 500;
@@ -204,15 +218,6 @@ img {
  fill: var(--color-text);
 }
 
-.info-link {
-  display: flex;
-  fill: currentColor;
-}
-
-.tel-link {
-  display: flex;
-  fill: currentColor;
-}
 /* / header */
 
 /* hero */
