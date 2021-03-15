@@ -149,6 +149,7 @@ img {
   margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 
 
@@ -203,7 +204,7 @@ img {
 }
 
 .head-list-item {
-
+  align-items: center;
 }
 
 .mail-ikon {
