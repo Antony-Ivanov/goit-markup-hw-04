@@ -367,9 +367,9 @@ img {
 }
 
 .title-box {
-  padding-top: 15px;
+  padding-top: 30px;
   background-color: var(--white-color);
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .our-team-item:not(:last-child) {
@@ -427,8 +427,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .social-list-link {
@@ -525,6 +523,7 @@ border-color: var(--accent-color);
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  align-items: baseline;
 }
 
 .foot-text {
