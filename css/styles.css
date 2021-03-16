@@ -82,8 +82,6 @@ img {
 .header {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
@@ -149,6 +147,7 @@ img {
   margin-left: auto;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
   align-items: center;
 }
 
@@ -197,6 +196,8 @@ img {
   color: var(--color-text);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .head-list-item:not(:last-child) {
@@ -367,9 +368,9 @@ img {
 }
 
 .title-box {
-  padding-top: 30px;
+  padding-top: 32px;
   background-color: var(--white-color);
-  padding-bottom: 30px;
+  padding-bottom: 32px;
 }
 
 .our-team-item:not(:last-child) {
@@ -415,6 +416,7 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-text);
+  margin-bottom: 16px;
 }
 
 .social-list-icon {
@@ -564,8 +566,6 @@ border-color: var(--accent-color);
 
 .footer {
   background-color: var(--bgrnd-color);
-  display: flex;
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -590,9 +590,7 @@ color: var(--white-color);
 }
 
 .footer-social-icon-box {
-  min-width: 168px;
-  margin-left: 70px;
-  margin-right: auto;
+  margin-left: 70px
 }
 
 .social-list-link {
@@ -703,7 +701,7 @@ color: var(--white-color);
   margin-top: 30px;
 }
 
-.product-item:hover {
+.product-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px
    rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
