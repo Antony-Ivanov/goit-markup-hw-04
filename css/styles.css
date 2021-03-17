@@ -368,9 +368,8 @@ img {
 }
 
 .title-box {
-  padding-top: 32px;
   background-color: var(--white-color);
-  padding-bottom: 32px;
+  padding: 32px;
 }
 
 .our-team-item:not(:last-child) {
